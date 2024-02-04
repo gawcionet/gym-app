@@ -1,0 +1,136 @@
+body {
+    background-color: black;
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 80px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    padding: 5px;
+}
+
+.content-card {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #ccc;
+    text-decoration: none;
+    min-height: 80px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.content-card-noimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: #ccc;
+    text-decoration: none;
+    text-align: center;
+    min-height: 80px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.static-content-card {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #ccc;
+    text-decoration: none;
+    min-height: 80px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.button-card {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border-radius: 20px;
+    height: 80px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.wrapped-button {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border-radius: 20px;
+    height: 80px;
+    justify-content: center;
+    flex: 1;
+}
+
+.content-card:hover,
+.button-card:hover,
+.delete-icon:hover,
+.wrapped-button:hover {
+    background-color: #474747;
+    cursor: pointer;
+}
+
+.content-card:hover img,
+.wrapped-button:hover img,
+.button-card:hover .icon img,
+.back-icon:hover img,
+.delete-icon:hover img {
+    filter: invert(26%) sepia(92%) saturate(6026%) hue-rotate(172deg) brightness(150%) contrast(102%);
+}
+
+.more-icon img ,
+.edit-icon img,
+.right-icon img {
+    width: 48px;
+    height: 48px;
+    padding-right: 30px;
+    filter: invert(80%);
+}
+
+.icon img {
+    width: 48px;
+    height: 48px;
+    filter: invert(80%);
+}
+
+.back-icon img {
+    width: 48px;
+    height: 48px;
+    filter: invert(80%);
+    margin-top: 10px;
+    position: absolute;
+}
+
+.delete-icon img {
+    width: 48px;
+    height: 48px;
+    filter: invert(80%);
+    margin-top: 10px;
+    position: absolute;
+    right: 5px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.timer {
+    position: absolute;
+    right: 60px;
+}
